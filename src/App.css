@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mobile-menu{
+  @apply fixed top-14 w-full h-auto;
+  background:white;
+}
+.mobile-menu ul li{
+  @apply w-full h-full text-center text-white hover:bg-black py-3 ;
+}
+.mobile-menu ul{
+  @apply border-2 border-cyan-100 rounded mx-2;
+}
+*{
+  @apply font-sans;
+}
+.bg{
+    background:rgb(11, 18, 31);
+}
+.custom-shadow{
+  @apply shadow-[0_0_15px_rgba(101,186,255,0.5)]
+}
+.shadow-btn{
+  @apply bg-gradient-to-r from-purple-600 to-cyan-500  rounded-full hover:opacity-90;
+}
+.Beginner{
+  @apply w-2/6 h-3 rounded-full  bg-gradient-to-r from-purple-600  to-cyan-500;
+}
+.br{
+  animation: ba 2s ease-in-out;
+}
+@keyframes ba{
+  0%{width: 0px}
+  100%{width: 33.333333%;}
+}
+.Regular{
+  @apply w-3/5 h-3 rounded-full  bg-gradient-to-r from-purple-600  to-cyan-500;
+}
+.rr{
+   animation: ra 2s ease-in-out;
+}
+@keyframes ra{
+  0%{width: 0px}
+  100%{width: 60%;}
+}
+
+.Advanced{
+  @apply w-4/5 h-3 rounded-full bg-gradient-to-r from-purple-600  to-cyan-500;
+}
+.ar{
+   animation: aa 2s ease-in-out;
+}
+@keyframes aa{
+  0%{width: 0px}
+  100%{width: 80%;}
+}
+*{
+  scroll-behavior: smooth;
+}
