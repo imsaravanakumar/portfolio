@@ -20,7 +20,7 @@ export default function Header() {
                 </nav>
                 <div className='hidden lg:block pt-1'>
                     <div className="flex gap-3 ">
-                        <a className="hover:scale-110" href="https://www.linkedin.com/in/saravana-kumar-96473428b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                        <a className="hover:scale-110" href="https://www.linkedin.com/in/saravana-kumar-91084b378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer"><FaLinkedin /></a>
                         <a className="hover:scale-110" href="https://wa.me/qr/LAINYP26JK52D1" target="_blank" rel="noreferrer"><IoLogoWhatsapp /></a>
                         <a className="hover:scale-110" href="https://www.instagram.com/_saravana.03_?igsh=amlncG90MzN0eGlo" target="_blank" rel="noreferrer"><AiFillInstagram /></a>
                     </div>
