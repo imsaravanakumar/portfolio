@@ -37,10 +37,10 @@ export default function Projects() {
 
                         <div className='flex justify-between gap-4'>
                             <button className='px-4 py-2 text-xs md:text-sm text-nowrap shadow-btn'>
-                                <a href={pro.link}>Live Preview</a>
+                                <a href={pro.link} target="_blank">Live Preview</a>
                             </button>
                             <button className='px-4 py-2 rounded-full border text-nowrap border-gray-500 text-white text-xs md:text-sm hover:bg-gray-700'>
-                                <a href={pro.githublink}>Check on GitHub</a>
+                                <a href={pro.githublink} target="_blank">Check on GitHub</a>
                             </button>
                         </div>
                     </div>
