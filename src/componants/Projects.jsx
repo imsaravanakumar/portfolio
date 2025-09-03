@@ -9,14 +9,14 @@ export default function Projects() {
                 image: techstore,
                 info: "Tech Items Selling E-commerce Site Using Mern-stack",
                 link:"https://tech-store-frontend.onrender.com",
-                githublink:""
+                githublink:"https://github.com/imsaravanakumar/Tech-Store"
             },
             {
                 p_name: "Bus Management Page",
                 image: bus,
                 info: "Responsive HTML/CSS Layout For Bus Management using HTML, CSS, JS",
                 link:"https://tech-store-frontend.onrender.com",
-                githublink:""
+                githublink:"https://github.com/imsaravanakumar/Tech-Store"
             }
         ]
     };
