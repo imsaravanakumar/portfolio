@@ -1,18 +1,22 @@
-import hosimg from '../assets/hospital.png';
+import techstore from '../assets/Techstore.png';
 import bus from '../assets/busweb.jpg';
 
 export default function Projects() {
     const details = {
         project: [
             {
-                p_name: "Hospital Management Page",
-                image: hosimg,
-                info: "Responsive HTML/CSS Layout For Hospital Management using HTML, CSS, JS"
+                p_name: "Tech Store",
+                image: techstore,
+                info: "Tech Items Selling E-commerce Site Using Mern-stack",
+                link:"https://tech-store-frontend.onrender.com",
+                githublink:""
             },
             {
                 p_name: "Bus Management Page",
                 image: bus,
-                info: "Responsive HTML/CSS Layout For Bus Management using HTML, CSS, JS"
+                info: "Responsive HTML/CSS Layout For Bus Management using HTML, CSS, JS",
+                link:"https://tech-store-frontend.onrender.com",
+                githublink:""
             }
         ]
     };
@@ -33,10 +37,10 @@ export default function Projects() {
 
                         <div className='flex justify-between gap-4'>
                             <button className='px-4 py-2 text-xs md:text-sm text-nowrap shadow-btn'>
-                                <a href="">Live Preview</a>
+                                <a href={pro.link}>Live Preview</a>
                             </button>
                             <button className='px-4 py-2 rounded-full border text-nowrap border-gray-500 text-white text-xs md:text-sm hover:bg-gray-700'>
-                                <a href="">Check on GitHub</a>
+                                <a href={pro.githublink}>Check on GitHub</a>
                             </button>
                         </div>
                     </div>
